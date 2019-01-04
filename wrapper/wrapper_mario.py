@@ -151,3 +151,4 @@ def create_mario_env(env_id):
     env = gym.make(env_id)
     env = wrap_mario(env)
     return env
+
